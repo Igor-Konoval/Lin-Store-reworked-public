@@ -1,0 +1,8 @@
+export const LOGIN_ROUTE = '/auth/login'
+export const REGISTRATION_ROUTE = '/auth/registration'
+export const ORDER_ROUTE = '/order'
+export const SAVE_LIST_ROUTE = '/saved-products'
+export const COMMENTS_ROUTE = '/comments-list'
+export const BASKET_ROUTE = '/basket'
+export const RECOVERY_PASSWORD_ROUTE = 'auth/recoveryPassword/:link'
+export const FORGOT_PASSWORD_ROUTE = 'forgotPassword'

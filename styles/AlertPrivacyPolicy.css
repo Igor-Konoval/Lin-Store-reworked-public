@@ -1,0 +1,38 @@
+.container-privacy {
+	bottom: 1%;
+	display: flex;
+	z-index: 40;
+	justify-content: center;
+	left: 0;
+	position: fixed;
+	width: 100%;
+}
+
+.block-privacy {
+	border: 1px solid #7f7f9e;
+	border-radius: 7px;
+	max-width: 662px;
+	background-color: #fffffff2;
+	padding: 18px;
+}
+
+.privacy-content {
+	font-size: 16px;
+}
+
+#privacy-link {
+	color: black;
+}
+
+#container-privacy-accept {
+	margin-top: 8px;
+	display: flex;
+	justify-content: center;
+}
+
+@media (max-width: 500px) {
+	.block-privacy {
+		padding: 8px;
+		margin: auto 5px;
+	}
+}
